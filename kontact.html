@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:/Users/denis/Desktop/практика 2/assets/kontact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!--HEADER--> 
+<header>
+    <div class="header">
+        <div>
+            <div class="contayner">
+                <div class="header__inner">
+                    <div class="header__logo">
+                    <a href="вуз.html"></a> 
+                    </div> 
+                    <nav class="nav"> 
+                        <div class="otst">
+                                     <a class="nav__link" href="C:/Users/denis/Desktop/практика 2/glav.html">Главная</a>
+                                     <a class="nav__link" href="C:/Users/denis/Desktop/практика 2/news.html">Новости</a>
+                                     <a class="nav__link" href="C:/Users/denis/Desktop/практика 2/kontact.html">Контакты</a>
+                                     <a class="nav__link" href="C:/Users/denis/Desktop/практика 2/team.html">Инструкторы</a>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </div>  
+     </header>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>  
+     </header> 
+     
+
+             <p class="h1">Контакты</p>
+
+            <div id="map"></div>
+            <script>
+                function initMap() {
+                  const uluru = { lat: 55.7022689, lng: 37.5206629 };
+                  // The map, centered at Uluru
+                  const map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 16,
+                    center: uluru,
+                  });
+                  // The marker, positioned at Uluru
+                  const marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map,
+                  });
+                }
+              </script>
+
+                        <p class="center">Адресс: ул. Колмогорова, 1, Москва</p>
+                    <script async
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo4ycUzzY618R82sTVqgIMsZY8QD7DE8A&callback=initMap">
+                    </script>
+
+
+
+             <!--footer-->
+        <div class="content">
+            <div class="footer">
+                <p class="Copyright">Copyright 2022 - All right Recived</p>
+                </nav>
+            </div>
+        </div>
+    
+</body>
+</html>
